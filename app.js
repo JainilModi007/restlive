@@ -4,7 +4,7 @@ const port = process.env.PORT||9800;
 const mongo = require('mongodb');
 const MongoClient = mongo.MongoClient
 // const mongourl = "mongodb://localhost:27017";
-const mongourl = "mongodb+srv://JainilModi:msdhoni@07@serviceprovider.yjc99.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+const mongourl = "mongodb+srv://JainilModi:msdhoni@07@serviceprovider.yjc99.mongodb.net/myRestapp?retryWrites=true&w=majority"
 let db;
 const cors = require('cors');
 const bodyParser = require('body-parser');
